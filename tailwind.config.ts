@@ -19,9 +19,23 @@ export default {
 		},
 		extend: {
 			fontFamily: {
-				'script': ['Dancing Script', 'cursive'],
-				'serif': ['Playfair Display', 'serif'],
-				'sans': ['Inter', 'sans-serif'],
+				script: ['Dancing Script', 'cursive'], // oldingi
+				serif: ['Playfair Display', 'serif'],
+				sans: ['Inter', 'sans-serif'],
+				vibes: ['"Great Vibes"', 'cursive'],
+				parisienne: ['"Parisienne"', 'cursive'],
+				sacramento: ['"Sacramento"', 'cursive'],
+				pacifico: ['"Pacifico"', 'cursive'],
+				greatvibes: ['"Great Vibes"', 'cursive'],
+				satisfy: ['"Satisfy"', 'cursive'],
+				allura: ['"Allura"', 'cursive'],
+				alexbrush: ['"Alex Brush"', 'cursive'],
+				quicksand: ['"Quicksand"', 'sans-serif'],
+				marck: ['"Marck Script"', 'cursive'],// yaxshi
+				courgette: ['"Courgette"', 'cursive'],
+				playfair: ['"Playfair Display"', 'serif'],
+				prata: ['"Prata"', 'serif'],
+				crimson: ['"Crimson Text"', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

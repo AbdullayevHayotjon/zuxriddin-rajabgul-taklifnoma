@@ -19,7 +19,7 @@ const Index = () => {
             className="w-full h-full object-cover"
           />
           {/* Gradient overlay for text readability */}
-          <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/30 to-transparent"></div>
+          <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-transparent"></div>
         </div>
 
         {/* Overlay Text */}
@@ -27,10 +27,20 @@ const Index = () => {
           <h1 className="text-4xl md:text-6xl font-script text-white mb-6 font-bold tracking-wide drop-shadow-md">
             Hurmatli mehmonlar!
           </h1>
-          <p className="text-lg md:text-xl font-script text-white leading-relaxed max-w-3xl mx-auto font-medium tracking-wide drop-shadow-sm">
-            Sizni Zuxriddin va Rajabgullarning nikoh to'yining faxriy mehmoni bo'lishga taklif qilamiz.
-            Qalblar ezguliklarga to‘la bo‘lgan ushbu qutlug‘ kunda do‘stlar yonida bo‘ling!
+          <p className="text-xl md:text-xl font-courgette text-neutral-100 leading-relaxed max-w-3xl mx-auto font-medium tracking-wide drop-shadow-sm">
+            <span className="text-neutral-300">
+              Sizni
+            </span>{" "}
+            <span className="font-pacifico text-pink-300 text-2xl">Zuxriddin</span>{" "}
+            <span className="text-neutral-300">va</span>{" "}
+            <span className="font-pacifico text-pink-300 text-2xl">Rajabgul</span>
+            <span className="text-neutral-300">
+              {' '}larning nikoh to‘yining faxriy mehmoni bo‘lishga taklif qilamiz.
+              Qalblar ezguliklarga to‘la bo‘lgan ushbu qutlug‘ kunda do‘stlar yonida bo‘ling!
+            </span>
           </p>
+
+
         </div>
       </div>
 
@@ -63,17 +73,6 @@ const Index = () => {
 
       {/* Music Player - Fixed at bottom */}
       <MusicPlayer />
-
-      {/* Background decorative elements */}
-      <div className="fixed top-20 left-10 w-20 h-20 opacity-10 pointer-events-none animate-pulse">
-        <div className="w-full h-full bg-primary rounded-full"></div>
-      </div>
-      <div className="fixed top-40 right-16 w-16 h-16 opacity-10 pointer-events-none animate-pulse delay-1000">
-        <div className="w-full h-full bg-accent rounded-full"></div>
-      </div>
-      <div className="fixed bottom-40 left-20 w-12 h-12 opacity-10 pointer-events-none animate-pulse delay-2000">
-        <div className="w-full h-full bg-primary rounded-full"></div>
-      </div>
     </div>
   );
 };
