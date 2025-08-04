@@ -1,9 +1,9 @@
-import groomProfile from '@/assets/groom-profile.jpg';
+import groomProfile from '@/assets/instagram.png';
 
 const GroomProfile = () => {
   const handleProfileClick = () => {
     // Replace with actual Instagram profile URL
-    window.open('https://instagram.com/zuhriddin_username', '_blank');
+    window.open('https://instagram.com/zuxa_ss', '_blank');
   };
 
   return (
@@ -33,10 +33,7 @@ const GroomProfile = () => {
           {/* Instagram username */}
           <div className="text-center">
             <p className="text-primary font-sans font-medium">
-              @zuhriddin_username
-            </p>
-            <p className="text-sm text-muted-foreground font-sans">
-              Instagram profilni ko'rish
+              @zuxa_ss
             </p>
           </div>
         </div>
